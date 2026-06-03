@@ -1,0 +1,40 @@
+.section-mae {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.section-mae h2 {
+  margin-bottom: 40px;
+  color: #ff6b81;
+  font-size: 2.2rem;
+}
+
+.card-mae {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.4s ease;
+}
+
+.card-mae:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(255, 107, 129, 0.2);
+}
+
+.card-mae img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.card-mae p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}

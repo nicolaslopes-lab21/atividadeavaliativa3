@@ -1,0 +1,45 @@
+.section-video {
+  padding: 60px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza tudo o que estiver dentro da section na horizontal */
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.section-video h2 {
+  font-size: 2rem;
+  color: #ff6b81; /* Mantém o padrão rosa do seu projeto */
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.container-video {
+  width: 100%;
+  max-width: 560px; /* Define um tamanho máximo fixo ideal para o player */
+  position: relative;
+  padding-bottom: 315px; /* Altura fixa proporcional para não quebrar em telas grandes */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Força as margens laterais a dividirem o espaço igualmente */
+}
+
+.container-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.legenda-video {
+  font-style: italic;
+  color: #666;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  text-align: center;
+}

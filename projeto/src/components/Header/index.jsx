@@ -1,19 +1,18 @@
 import "./style.css";
 
 function Header() {
-	return (
+  return (
     <header className="header">
-        <h1> Homenagem aos Meus Pais </h1>
-
-        <nav>
+      <h1>Homenagem Especial</h1>
+      <nav>
         <a href="#inicio">Início</a>
         <a href="#mae">Mãe</a>
         <a href="#pai">Pai</a>
         <a href="#galeria">Galeria</a>
         <a href="#videos">Vídeos</a>
-        </nav>
+      </nav>
     </header>
-);
+  );
 }
 
 export default Header;
